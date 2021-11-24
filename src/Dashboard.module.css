@@ -1,9 +1,4 @@
-@font-face {
-  font-family: "Avenir LT Std 85";
-  src: url("/Users/furkanayilmaz/Desktop/Code/Frontend/React/spotify/src/font/avenir-lt-std-85.ttf");
-}
-
-.dashboard_background {
+.background {
   position: absolute;
   width: 375px;
   height: 812px;
@@ -18,14 +13,14 @@
   );
 }
 
-.helloMsg {
+.greeting {
   position: absolute;
-  width: 152px;
+  width: 174px;
   height: 16px;
   left: 27px;
   top: 44px;
 
-  font-family: "Avenir LT Std 85";
+  font-family: Avenir LT Std;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -34,15 +29,7 @@
   color: #ffffff;
 }
 
-.alarmSVG {
-  position: absolute;
-  width: 18px;
-  height: 17px;
-  left: 291px;
-  top: 47px;
-}
-
-.likedSongSmallContainer {
+.container1 {
   position: absolute;
   width: 146px;
   height: 36px;
@@ -53,14 +40,24 @@
   border-radius: 6px;
 }
 
-.likedSongContainerMsg {
+.container1Img {
+  position: absolute;
+  width: 20px;
+  height: 22px;
+  left: 41px;
+  top: 104px;
+
+  background: #211e2a;
+}
+
+.container1Text {
   position: absolute;
   width: 58px;
   height: 9px;
-  left: 71px;
-  top: 109px;
+  left: 72px;
+  top: 105px;
 
-  font-family: "Avenir LT Std 85";
+  font-family: Avenir LT Std;
   font-style: normal;
   font-weight: 800;
   font-size: 10px;
@@ -69,15 +66,7 @@
   color: #ffffff;
 }
 
-.likedImageContainerImage {
-  position: absolute;
-  width: 20px;
-  height: 22px;
-  left: 41px;
-  top: 104px;
-}
-
-.secondContainer {
+.container2 {
   position: absolute;
   width: 146px;
   height: 36px;
@@ -88,12 +77,12 @@
   border-radius: 6px;
 }
 
-.secondContainerMsg {
+.container2Text {
   position: absolute;
   width: 59px;
   height: 9px;
-  left: 246px;
-  top: 102px;
+  left: 242px;
+  top: 105px;
 
   font-family: Avenir LT Std;
   font-style: normal;
@@ -104,11 +93,212 @@
   color: #ffffff;
 }
 
-.secondContainerImage {
+.container2Img {
   position: absolute;
   width: 31px;
   height: 36px;
-  
-  background: url("https://i.scdn.co/image/ab6761610000e5eb94fbdb362091111a47db337d");
+  left: 204px;
+  top: 95px;
+
+  background: url(./assets/ab6761610000e5eb94fbdb362091111a47db337d.jpg);
   border-radius: 6px;
+}
+
+.container3 {
+  position: absolute;
+  width: 146px;
+  height: 36px;
+  left: 37px;
+  top: 146px;
+
+  background: #24212f;
+  border-radius: 6px;
+}
+
+.container3Text {
+  position: absolute;
+  width: 78px;
+  height: 9px;
+  left: 75px;
+  top: 160px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #ffffff;
+}
+
+.container3Img {
+  position: absolute;
+  width: 30px;
+  height: 36px;
+  left: 37px;
+  top: 146px;
+
+  background: url(./assets/ab6761610000e5eb64af9f165deb17914f5a8e95.jpg);
+  border-radius: 6px;
+}
+
+.musicContainer {
+  position: absolute;
+  width: 347px;
+  height: 52px;
+  left: 14px;
+  top: 707px;
+
+  background: #443355;
+  border-radius: 9px;
+}
+
+.musicImg {
+  position: absolute;
+  width: 49px;
+  height: 52px;
+  left: 14px;
+  top: 707px;
+
+  background: url(./assets/ab67616d0000b273dac1790a979d3ad63c7b8405.jpg);
+  border-radius: 9px;
+}
+
+.musicName {
+  position: absolute;
+  width: 25px;
+  height: 13px;
+  left: 74px;
+  top: 719px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.musicArtist {
+  position: absolute;
+  width: 47px;
+  height: 10px;
+  left: 74px;
+  top: 740px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8.5px;
+  line-height: 10px;
+
+  color: #ffffff;
+
+  opacity: 0.5;
+}
+
+.playMusicFromOtherDevices {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 305px;
+  top: 723px;
+
+  background: #443355;
+}
+
+.pauseMusic {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 332px;
+  top: 723px;
+
+  background: #443355;
+}
+
+.bottomNavigationBar {
+  position: absolute;
+  width: 375px;
+  height: 54px;
+  left: 0px;
+  top: 762px;
+
+  background: #696969;
+  border-radius: 9px;
+}
+
+.navigatorHome {
+  position: absolute;
+  width: 46px;
+  height: 10px;
+  left: 45px;
+  top: 791px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.homeIcon {
+  position: absolute;
+  left: 14.4%;
+  right: 80.17%;
+  top: 94.95%;
+  bottom: 2.71%;
+}
+
+.navigatorSearch {
+  position: absolute;
+  width: 46px;
+  height: 13px;
+  left: 156px;
+  top: 789px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 44.8%;
+  right: 51.64%;
+  top: 95.2%;
+  bottom: 3.16%;
+}
+
+.libraryNavigator {
+  position: absolute;
+  width: 79px;
+  height: 13px;
+  left: 259px;
+  top: 790px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.libraryIcon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 287px;
+  top: 770px;
+
+  background: #696969;
 }
