@@ -1,0 +1,45 @@
+.loginBackground {
+  position: absolute;
+  width: 414px;
+  height: 896px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(
+    162.3deg,
+    #3815a9 11.35%,
+    rgba(35, 17, 96, 0.821287) 37.09%,
+    rgba(196, 196, 196, 0) 141.22%
+  );
+}
+
+.LoginButton {
+  position: absolute;
+  width: 333px;
+  height: 79px;
+  left: 42px;
+  top: 391px;
+
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 243px;
+}
+
+.LoginButtonMessage {
+  position: absolute;
+  width: 206px;
+  height: 30px;
+  left: 104px;
+  top: 418px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  cursor: pointer;
+}

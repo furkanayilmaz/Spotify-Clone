@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Avenir LT Std 85";
+  src: url("/Users/furkanayilmaz/Desktop/Code/Frontend/React/spotify/src/font/avenir-lt-std-85.ttf");
+}
+
+.dashboard_background {
+  position: absolute;
+  width: 375px;
+  height: 812px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(
+    162.3deg,
+    #3815a9 11.35%,
+    rgba(35, 17, 96, 0.821287) 37.09%,
+    rgba(196, 196, 196, 0) 141.22%
+  );
+}
+
+.helloMsg {
+  position: absolute;
+  width: 152px;
+  height: 16px;
+  left: 27px;
+  top: 44px;
+
+  font-family: "Avenir LT Std 85";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.alarmSVG {
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  left: 291px;
+  top: 47px;
+}
+
+.likedSongSmallContainer {
+  position: absolute;
+  width: 146px;
+  height: 36px;
+  left: 33px;
+  top: 95px;
+
+  background: #24212f;
+  border-radius: 6px;
+}
+
+.likedSongContainerMsg {
+  position: absolute;
+  width: 58px;
+  height: 9px;
+  left: 71px;
+  top: 109px;
+
+  font-family: "Avenir LT Std 85";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #ffffff;
+}
+
+.likedImageContainerImage {
+  position: absolute;
+  width: 20px;
+  height: 22px;
+  left: 41px;
+  top: 104px;
+}
+
+.secondContainer {
+  position: absolute;
+  width: 146px;
+  height: 36px;
+  left: 205px;
+  top: 95px;
+
+  background: #24212f;
+  border-radius: 6px;
+}
+
+.secondContainerMsg {
+  position: absolute;
+  width: 59px;
+  height: 9px;
+  left: 246px;
+  top: 102px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #ffffff;
+}
+
+.secondContainerImage {
+  position: absolute;
+  width: 31px;
+  height: 36px;
+  
+  background: url("https://i.scdn.co/image/ab6761610000e5eb94fbdb362091111a47db337d");
+  border-radius: 6px;
+}
