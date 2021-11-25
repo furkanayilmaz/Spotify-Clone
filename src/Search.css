@@ -216,3 +216,15 @@
   left: 332px;
   top: 724px;
 }
+
+.musics {
+  position: absolute;
+  width: 375px;
+  height: 570px;
+  left: 0px;
+  top: 129px;
+
+  background: #131313;
+
+  overflow-y: auto;
+}

@@ -63,7 +63,7 @@ function Search(props) {
             <input type="text" className="searchMusic" placeholder="Artists, song or podcast" onChange={e => setSearch(e.target.value)} />
             <svg className="searchIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><g class="nc-icon-wrapper" stroke-width="1" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="7.5" r="6"></circle> <line x1="15.5" y1="15.5" x2="11.742" y2="11.742"></line> </g></svg>
 
-            <div className="flex-grow-1 my-2" style={{ overflowY: "scroll" }}>
+            <div className="musics">
                 {searchResults.map(track => (
                     <TrackSearchResult
                         track={track}
@@ -71,6 +71,8 @@ function Search(props) {
                     />
                 ))}
             </div>
+
+
 
             <div className="navigationBar"></div>
 
@@ -88,7 +90,7 @@ function Search(props) {
             <div className="musicContainer"></div>
             <h1 className="songName">On My Way</h1>
             <h1 className="artist">Alan Walker, Sabrina Carpenter, Farruko</h1>
-            <div className="songImage"></div>
+            <div className="songImage"></div> 
 
             <svg className="playMusicFromOtherDevices" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" class="nc-icon-wrapper"><path opacity=".3" d="M7 4v16h10V4H7zm5 1c1.1 0 2 .9 2 2s-.9 2-2 2a2 2 0 1 1 0-4zm0 14c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z" fill="#000000"></path><path d="M17 2H7c-1.1 0-2 .9-2 2v16c0 1.1.9 1.99 2 1.99L17 22c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM7 20V4h10v16H7zm5-11c1.1 0 2-.9 2-2s-.9-2-2-2a2 2 0 1 0 0 4zm0 2c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z" fill="#000000"></path></g></svg>
             <svg className="pauseMusic" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" class="nc-icon-wrapper"><path d="M6 5h4v14H6V5zm8 0h4v14h-4V5z" fill="#ffffff"></path></g></svg>

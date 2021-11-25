@@ -1,22 +1,23 @@
 .songName {
   position: absolute;
-  width: 1000px;
-  height: 10px;
-  left: 56px;
-  top: 149px;
+  width: 84px;
+  height: 13px;
+  left: 74px;
+  top: 720px;
 
   font-family: Avenir LT Std;
   font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
 
   color: #ffffff;
 }
 
+
 .artist {
   position: absolute;
-  width: 45px;
+  width: 1000px;
   height: 9px;
   left: 56px;
   top: 166px;
@@ -39,4 +40,62 @@
   height: 41px;
   left: 11px;
   top: 142px;
+}
+
+.musicContainer {
+  position: absolute;
+  width: 347px;
+  height: 52px;
+  left: 14px;
+  top: 708px;
+
+  background: #443355;
+  border-radius: 9px;
+}
+
+
+.artist {
+  position: absolute;
+  width: 160px;
+  height: 10px;
+  left: 74px;
+  top: 741px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8.5px;
+  line-height: 10px;
+
+  color: #ffffff;
+
+  opacity: 0.5;
+}
+
+.artist {
+  position: absolute;
+  width: 160px;
+  height: 10px;
+  left: 74px;
+  top: 741px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8.5px;
+  line-height: 10px;
+
+  color: #ffffff;
+
+  opacity: 0.5;
+}
+
+.songImage {
+  position: absolute;
+  width: 49px;
+  height: 52px;
+  left: 14px;
+  top: 708px;
+
+  border-radius: 9px;
 }
