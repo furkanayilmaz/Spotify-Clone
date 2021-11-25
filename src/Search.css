@@ -1,0 +1,218 @@
+.background {
+  position: absolute;
+  width: 375px;
+  height: 812px;
+  left: 0px;
+  top: 0px;
+
+  background: #131313;
+}
+
+.textSearch {
+  position: absolute;
+  width: 79px;
+  height: 30px;
+  left: 26px;
+  top: 36px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.searchMusic {
+  position: absolute;
+  width: 321px;
+  height: 37px;
+  left: 26px;
+  top: 79px;
+
+  background: #ffffff;
+  border-radius: 8px;
+  outline: none;
+}
+
+.searchMusic::placeholder {
+  width: 108px;
+  height: 9px;
+  left: 80px;
+  top: 92px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #000000;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 12.5%;
+  right: 4.17%;
+  top: 12.5%;
+  bottom: 4.17%;
+}
+
+.navigationBar {
+  position: absolute;
+  width: 375px;
+  height: 54px;
+  left: 0px;
+  top: 763px;
+
+  background: #696969;
+  border-radius: 9px;
+}
+
+.homeNavigation {
+  position: absolute;
+  width: 46px;
+  height: 10px;
+  left: 45px;
+  top: 791px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.searchNavigation {
+  position: absolute;
+  width: 46px;
+  height: 13px;
+  left: 156px;
+  top: 789px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.libraryNavigation {
+  position: absolute;
+  width: 79px;
+  height: 13px;
+  left: 259px;
+  top: 790px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.homeIcon {
+  position: absolute;
+  left: 14.4%;
+  right: 80.17%;
+  top: 94.95%;
+  bottom: 2.71%;
+}
+
+.SearchIcon {
+  position: absolute;
+  left: 44.8%;
+  right: 51.64%;
+  top: 95.2%;
+  bottom: 3.16%;
+}
+
+.libraryIcon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 287px;
+  top: 770px;
+
+  background: #696969;
+}
+
+.musicContainer {
+  position: absolute;
+  width: 347px;
+  height: 52px;
+  left: 14px;
+  top: 708px;
+
+  background: #443355;
+  border-radius: 9px;
+}
+
+.songName {
+  position: absolute;
+  width: 84px;
+  height: 13px;
+  left: 74px;
+  top: 720px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.artist {
+  position: absolute;
+  width: 160px;
+  height: 10px;
+  left: 74px;
+  top: 741px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8.5px;
+  line-height: 10px;
+
+  color: #ffffff;
+
+  opacity: 0.5;
+}
+
+.songImage {
+  position: absolute;
+  width: 49px;
+  height: 52px;
+  left: 14px;
+  top: 708px;
+
+  background: url(./assets/artworks-000523641915-lo2qzf-t500x500.jpg);
+  border-radius: 9px;
+}
+
+.playMusicFromOtherDevices {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 305px;
+  top: 724px;
+}
+
+.pauseMusic {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 332px;
+  top: 724px;
+}

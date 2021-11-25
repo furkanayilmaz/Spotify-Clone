@@ -1,0 +1,42 @@
+.songName {
+  position: absolute;
+  width: 1000px;
+  height: 10px;
+  left: 56px;
+  top: 149px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.artist {
+  position: absolute;
+  width: 45px;
+  height: 9px;
+  left: 56px;
+  top: 166px;
+
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 7.5px;
+  line-height: 9px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  opacity: 0.5;
+}
+
+.songImage {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  left: 11px;
+  top: 142px;
+}
