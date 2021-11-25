@@ -5,7 +5,7 @@
   left: 0px;
   top: 0px;
 
-  background: #131313;
+  background: #fff; /* #131313 */
 }
 
 .textSearch {
@@ -224,7 +224,7 @@
   left: 0px;
   top: 129px;
 
-  background: #131313;
+  background: #fff;
 
   overflow-y: auto;
 }
